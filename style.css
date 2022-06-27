@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('image/bg.jpg');
+    
+}
+
+/*logo styling*/
+.left{
+    border: 11px white;
+    display: inline-block;
+    left:20px;
+    top:20px;
+    color: white;
+    margin-top: 11px;
+    position: fixed;
+    font-family: 'Concert One', cursive;
+    }
+
+/*logo*/
+.left img{
+    width:70px;
+    height:70px;
+}
+
+
+
+/*search box*/
+#search{
+   
+    display:block;
+    margin:auto;
+    size: 200px;
+    padding: 20px 20px;
+    width: 550px;
+    height: 15px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+/*main lines and box*/
+.search{
+display: block;
+margin:  auto;
+text-align: center;
+    margin-top:320px;
+    margin-left: 0px ;
+    padding: 20px 20px;
+    size: 200px;
+    color: white;
+    
+}
+#s1{
+margin: 0px;
+font-family: 'Griffy', cursive;
+}
+#s2{
+font-family: 'Dancing Script', cursive;
+margin: 10px;
+}
+
+/*navigation bar*/
+.right{
+    position:absolute;
+    display:inline-block;
+    right:20px;
+    top: 20px;
+}
+
+.navbar{
+    display: inline-block;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.navbar li{
+
+    display: inline-block;
+    color: white;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.navbar li a:hover, .navbar li a.act, .btn button#bt1:hover ,.btn button#bt2:hover{
+    color: rgb(76, 227, 238);
+    text-decoration: underline;
+    padding: 40px;
+}
+
+/* For buttons */
+.btn{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    margin: 15px;
+    
+   
+   
+    
+}
+#bt1{
+     margin: 20px;
+     padding: 20px 20px 20px 20px;
+     border-radius: 15px;
+     cursor: pointer;
+     font-family: cursive;
+}
+#bt2{
+     margin: 20px;
+     padding: 20px 20px 20px 20px;
+     border-radius: 15px;
+     cursor: pointer;
+     font-family: cursive;
+     
+}
